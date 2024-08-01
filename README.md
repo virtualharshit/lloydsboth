@@ -26,7 +26,7 @@ To install porject, follow these steps:
 
 ## Usage
 
-To start the development server, run: npm run dev in both Terminals
+To start the development server, run: [ npm run dev ] in both Terminals
 
 You can launch project in web browser using [http://localhost:5173](http://localhost:5173/)
 

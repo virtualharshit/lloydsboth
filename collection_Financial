@@ -1,0 +1,62 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Financial",
+    "collectionId": "0e3f9009-d8bb-4fcc-8000-87971c44eea0",
+    "dateExported": "2024-08-01T06:23:27.700Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8d31373a-0b31-4673-80fd-334a9dd74b51",
+            "colId": "0e3f9009-d8bb-4fcc-8000-87971c44eea0",
+            "containerId": "",
+            "name": "Add User 1",
+            "url": "http://localhost:5000/api/user/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-08-01T05:38:07.456Z",
+            "modified": "2024-08-01T06:20:46.428Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"User1\",\n  \"email\": \"user1@gmail.com\",\n  \"password\": \"test1234\",\n  \"role\": \"Software Engineer\",\n  \"working\": \"ABC Company\",\n  \"experience\": \"7 years\",\n  \"location\": \"New York\",\n  \"type\": 0,\n  \"skills\": [{\n    \"name\": \"Photoshop\",\n    \"value\" : 7\n  },{\n    \"name\": \"Graphics\",\n    \"value\" : 5\n  },{\n    \"name\": \"Github\",\n    \"value\" : 9\n  },{\n    \"name\": \"Video Editing\",\n    \"value\" : 8\n  }]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "76f29589-6875-4824-91a4-95c02f923557",
+            "colId": "0e3f9009-d8bb-4fcc-8000-87971c44eea0",
+            "containerId": "",
+            "name": "Login User",
+            "url": "http://localhost:5000/api/user/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-08-01T05:38:38.904Z",
+            "modified": "2024-08-01T06:23:02.403Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"user1@gmail.com\",\n  \"password\": \"test1234\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e9981ddc-0603-480b-bcbb-1f1e2faac963",
+            "colId": "0e3f9009-d8bb-4fcc-8000-87971c44eea0",
+            "containerId": "",
+            "name": "Add User 2",
+            "url": "http://localhost:5000/api/user/register",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-08-01T06:18:22.489Z",
+            "modified": "2024-08-01T06:21:08.806Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"User2\",\n  \"email\": \"user2@gmail.com\",\n  \"password\": \"test1234\",\n  \"role\": \"Graphic Designer\",\n  \"working\": \"ABC Company\",\n  \"experience\": \"5 years\",\n  \"location\": \"New York\",\n  \"type\": 1,\n  \"skills\": [{\n    \"name\": \"Graphics\",\n    \"value\" : 5\n  },{\n    \"name\": \"Github\",\n    \"value\" : 9\n  },{\n    \"name\": \"Photoshop\",\n    \"value\" : 7\n  },{\n    \"name\": \"Video Editing\",\n    \"value\" : 8\n  }]\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "SfHXraMf2MIX9YrfXnJoOKdmjGL_9kphV14w7bGcxm-4bQUwAQFlR8ZHzxyi0hqtdBeUdikX6xE-ABip9V6o-A"
+}
